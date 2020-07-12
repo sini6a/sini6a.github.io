@@ -6,8 +6,8 @@ keywords:       >
                 programming, front-end, back-end, software developer, php, laravel, android, django, python, linux, linux administrator, open-source, free software
 logo:           /assets/icons/favicon-192x192.png
 image:          /assets/images/me.jpg
-url:            https://sini6a.github.io
-repository:     sini6a/sini6a.github.io
+url:            https://rafaell-lycan.com
+repository:     rafaell-lycan/rafaell-lycan.com
 rss:            https://feeds.feedburner.com/rafaell-lycan
 lang:           en_US
 
@@ -25,6 +25,7 @@ author:
 conf:
   g_verify:     k0stkb4kdmJ6rf6o_WvHllT9IC4NGb6CpZC8BUvsUrA
   gtm_id:       GTM-KPNJ6BB
+  disqus_name:  rafaelllycan
   theme_color:  "#5fbffd"
 
 webmaster_verifications:
@@ -50,11 +51,11 @@ social:
     - http://instagram.com/sini6a
     - https://www.linkedin.com/in/sinisha-stojchevski-071447167/
 
-#twitter:
-#  username:     sini6a
+twitter:
+  username:     RafaellLycan
 
-#facebook:
-#  app_id:       1160764874037367
+facebook:
+  app_id:       1160764874037367
 
 # Collections
 collections:
@@ -99,7 +100,7 @@ show_drafts:    false
 
 # Plugins
 plugins:
-  - jekyll-feed
+#  - jekyll-feed
   - jekyll-include-cache
   - jekyll-pagination
   - jekyll-seo-tag
