@@ -14,7 +14,7 @@ I am a big enthusiast in the **free and open source software** philosophy and ac
 
 Find me on [Linkedin][linkedin], [Instagram][instagram], [Facebook][facebook] or check my projects on [Github][github]. 
 
-Feel free to contact me at [me at sini6a dot info][email].
+Feel free to [e-mail me][email].
 
 
 [me]: /assets/images/me.jpg
