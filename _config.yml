@@ -6,9 +6,9 @@ keywords:       >
                 programming, front-end, back-end, software developer, php, laravel, android, django, python, linux, linux administrator, open-source, free software
 logo:           /assets/icons/favicon-192x192.png
 image:          /assets/images/me.jpg
-url:            https://rafaell-lycan.com
-repository:     rafaell-lycan/rafaell-lycan.com
-rss:            https://feeds.feedburner.com/rafaell-lycan
+url:            https://sini6a.info
+repository:     sini6a/sini6a.github.io
+#rss:            https://feeds.feedburner.com/sini6a
 lang:           en_US
 
 # Author Informations
@@ -19,17 +19,17 @@ author:
   email:        stojchevski0@gmail.com
   location:     gothenburg
   github:       sini6a
-  gravatar:     dd1c977c7a3e384a9cdae3b5ddd9b006
+#  gravatar:     dd1c977c7a3e384a9cdae3b5ddd9b006
 
 # Config
 conf:
-  g_verify:     k0stkb4kdmJ6rf6o_WvHllT9IC4NGb6CpZC8BUvsUrA
-  gtm_id:       GTM-KPNJ6BB
-  disqus_name:  rafaelllycan
+#  g_verify:     k0stkb4kdmJ6rf6o_WvHllT9IC4NGb6CpZC8BUvsUrA
+#  gtm_id:       GTM-KPNJ6BB
+  disqus_name:  sinishastojchevski
   theme_color:  "#5fbffd"
 
-webmaster_verifications:
-  google: k0stkb4kdmJ6rf6o_WvHllT9IC4NGb6CpZC8BUvsUrA
+#webmaster_verifications:
+#  google: k0stkb4kdmJ6rf6o_WvHllT9IC4NGb6CpZC8BUvsUrA
 
 navigation:
   - text: Home
@@ -51,11 +51,11 @@ social:
     - http://instagram.com/sini6a
     - https://www.linkedin.com/in/sinisha-stojchevski-071447167/
 
-twitter:
-  username:     RafaellLycan
+#twitter:
+#  username:     sini6a
 
-facebook:
-  app_id:       1160764874037367
+#facebook:
+#  app_id:       1160764874037367
 
 # Collections
 collections:
@@ -100,7 +100,7 @@ show_drafts:    false
 
 # Plugins
 plugins:
-#  - jekyll-feed
+  - jekyll-feed
   - jekyll-include-cache
   - jekyll-pagination
   - jekyll-seo-tag
