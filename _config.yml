@@ -8,7 +8,7 @@ logo:           /assets/icons/favicon-192x192.png
 image:          /assets/images/me.jpg
 url:            https://sini6a.github.io
 repository:     sini6a/sini6a.github.io
-#rss:            https://feeds.feedburner.com/sini6a
+rss:            https://feeds.feedburner.com/rafaell-lycan
 lang:           en_US
 
 # Author Informations
@@ -19,17 +19,16 @@ author:
   email:        stojchevski0@gmail.com
   location:     gothenburg
   github:       sini6a
-#  gravatar:     dd1c977c7a3e384a9cdae3b5ddd9b006
+  gravatar:     dd1c977c7a3e384a9cdae3b5ddd9b006
 
 # Config
 conf:
-#  g_verify:     k0stkb4kdmJ6rf6o_WvHllT9IC4NGb6CpZC8BUvsUrA
-#  gtm_id:       GTM-KPNJ6BB
-  disqus_name:  sinishastojchevski
+  g_verify:     k0stkb4kdmJ6rf6o_WvHllT9IC4NGb6CpZC8BUvsUrA
+  gtm_id:       GTM-KPNJ6BB
   theme_color:  "#5fbffd"
 
-#webmaster_verifications:
-#  google: k0stkb4kdmJ6rf6o_WvHllT9IC4NGb6CpZC8BUvsUrA
+webmaster_verifications:
+  google: k0stkb4kdmJ6rf6o_WvHllT9IC4NGb6CpZC8BUvsUrA
 
 navigation:
   - text: Home
