@@ -33,5 +33,8 @@
   },
   "dependencies": {
     "webfontloader": "^1.6.28"
+  },
+  "resolutions": {
+    "serialize-javascript": "^2.1.1"
   }
 }
