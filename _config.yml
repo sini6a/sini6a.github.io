@@ -1,0 +1,131 @@
+# Metadata
+title:          Sinisha Stojchevski
+description:    >
+                Hey and welcome to my blog, this is the place where you can read more about me and where I will occasionally post random programming and linux administration stuff.
+keywords:       >
+                programming, front-end, back-end, software developer, php, laravel, android, django, python, linux, linux administrator, open-source, free software
+logo:           /assets/icons/favicon-192x192.png
+image:          /assets/images/me.jpg
+url:            https://rafaell-lycan.com
+repository:     rafaell-lycan/rafaell-lycan.com
+rss:            https://feeds.feedburner.com/rafaell-lycan
+lang:           en_US
+
+# Author Informations
+author:
+  name:         Sinisha Stojchevski
+  first_name:   Sinisha
+  last_name:    Stojchevski
+  email:        stojchevski0@gmail.com
+  location:     gothenburg
+  github:       sini6a
+  gravatar:     dd1c977c7a3e384a9cdae3b5ddd9b006
+
+# Config
+conf:
+  g_verify:     k0stkb4kdmJ6rf6o_WvHllT9IC4NGb6CpZC8BUvsUrA
+  gtm_id:       GTM-KPNJ6BB
+  disqus_name:  rafaelllycan
+  theme_color:  "#5fbffd"
+
+webmaster_verifications:
+  google: k0stkb4kdmJ6rf6o_WvHllT9IC4NGb6CpZC8BUvsUrA
+
+navigation:
+  - text: Home
+    url: /
+    active: false
+  - text: Articles
+    url: /articles
+    active: articles
+  - text: About
+    url: /about
+    active: about
+
+
+social:
+  name:         Sinisha Stojchevski
+  links:
+    - https://www.facebook.com/sini6a.info
+    - https://github.com/sini6a
+    - http://instagram.com/sini6a
+    - https://www.linkedin.com/in/sinisha-stojchevski-071447167/
+
+twitter:
+  username:     RafaellLycan
+
+facebook:
+  app_id:       1160764874037367
+
+# Collections
+collections:
+  trips:
+    output: false
+    permalink: /trips/:title/
+
+defaults:
+  - scope:
+      path: ""
+      type: "posts"
+    values:
+      layout: post
+  - scope:
+      path: ""
+      type: "trips"
+    values:
+      layout: trip
+
+# Paths
+baseurl: ""
+asset_path:     "assets"
+
+# Conversion
+markdown:       kramdown
+highlighter:    rouge
+kramdown:
+  input:        GFM
+  syntax_highlighter: rouge
+  parse_block_html: true
+
+sass:
+  sass_dir:     _sass
+  style:        :compressed
+
+# Output
+permalink:      /:year/:title/
+paginate:       10
+paginate_path:  "/articles/page/:num/"
+future:         false
+show_drafts:    false
+
+# Plugins
+plugins:
+#  - jekyll-feed
+  - jekyll-include-cache
+  - jekyll-pagination
+  - jekyll-seo-tag
+  - jekyll-sitemap
+  - jekyll-redirect-from
+  - jekyll-github-metadata
+  - jemoji
+
+# Reading
+exclude:
+  - .jekyll-cache
+  - Gemfile
+  - Gemfile.lock
+  - node_modules
+  - vendor
+  - _scripts
+  - package.json
+  - gulpfile.js
+  - webpack.config.js
+  - README.md
+
+compress_html:
+  clippings: all
+  comments: ["<!--[if ", "<![endif]-->"]
+  endings: all
+  startings: [body]
+  profile: false
+  blanklines: false

@@ -1,0 +1,43 @@
+---
+layout: default
+---
+<div class="post__progress"></div>
+<article class="post container" itemscope itemtype="http://schema.org/BlogPosting">
+
+  <header class="post__header">
+    <h1 class="post__title" itemprop="name headline">
+      {{ page.title }}
+    </h1>
+
+    <div class="post__meta">
+
+      {% include meta.html %}
+
+      {% if page.tags.size > 0 %}
+      <ul class="meta-tags">
+        {% for tag in page.tags %}
+          <li class="meta-tags__item">
+            <a href="/tags/{{ tag }}">#{{ tag }}</a>
+          </li>
+        {% endfor %}
+      </ul>
+      {% endif %}
+    </div>
+  </header>
+
+  {% if page.image %}
+  <figure class="post__cover">
+    <img src="{{page.image | absolute_url }}" alt="{{page.title}}" itemprop="thumbnailUrl">
+  </figure>
+  {% endif %}
+
+  <section class="post__content">
+    {{ content }}
+  </section>
+
+  {% include post/social-links.html %}
+  {% include post/references.html %}
+  <!-- {% include page/mail.html %} -->
+</article>
+
+{% include post/comments.html %}
