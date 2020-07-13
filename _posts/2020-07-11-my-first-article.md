@@ -4,9 +4,8 @@ description: >-
   This is my first blog article. This article serves as a starting point where you learn the topics that I am going to discuss and learn a bit more about me and my interests.
 tags: blog
 keywords: 'programmers blog, linux blog, programming, linux'
+image: 'https://images.unsplash.com/photo-1444418776041-9c7e33cc5a9c?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1050&q=80'
 ---
-
-![Welcome Image](https://images.unsplash.com/photo-1444418776041-9c7e33cc5a9c?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1050&q=80)
 
 # What is this blog about?
 

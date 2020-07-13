@@ -1,8 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9 http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd" xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
 <url>
-<loc>http://localhost:4000/2020/blog-v1.0/</loc>
+<loc>http://localhost:4000/2020/my-first-article/</loc>
 <lastmod>2020-07-11T00:00:00+02:00</lastmod>
+</url>
+<url>
+<loc>http://localhost:4000/2020/what-is-foss-and-gnu-linux/</loc>
+<lastmod>2020-07-13T00:00:00+02:00</lastmod>
 </url>
 <url>
 <loc>http://localhost:4000/2020/draft/</loc>

@@ -18,9 +18,11 @@ author:
   email:        stojchevski0@gmail.com
   location:     gothenburg
   github:       sini6a
+  gravatar:     stojchevski0
 
 # Config
 conf:
+  gtm_id:       GTM-WH4HPNF
   theme_color:  "#5fbffd"
 
 navigation:
