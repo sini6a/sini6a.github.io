@@ -35,7 +35,7 @@ You contribute to community and you are part of that community. You feel good wh
 
 Linux kernel is a part of an operating system where specific hardware drivers and instructions are written whereas GNU is a set of applications that are used in userspace. Combined they form an operating system known as GNU/Linux. It's widely used today and all 500 most powerfull computers run Linux.
 
-![IBM Blue Gene supercomputer image](/assets/images/posts/what-is-foss-and-gnu-linux/1280px-IBM_Blue_Gene_P_supercomputer.jpg)
+![IBM Blue Gene supercomputer image]({{site.url}}/assets/images/posts/what-is-foss-and-gnu-linux/1280px-IBM_Blue_Gene_P_supercomputer.jpg)
 *IBM Blue Gene supercomputer*
 
 Read more about [GNU/Linux](https://en.wikipedia.org/wiki/Linux) and [supercomputers](https://en.wikipedia.org/wiki/Supercomputer). 
