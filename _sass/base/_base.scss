@@ -30,6 +30,13 @@ img {
   border-radius: 2px;
 }
 
+/**
+ * Image caption
+ */
+img + em { 
+  border-bottom: 1px solid #dfdfdf;
+}
+
 
 /**
  * Figures

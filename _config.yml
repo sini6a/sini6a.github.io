@@ -8,6 +8,7 @@ logo:           /assets/icons/favicon-192x192.png
 image:          /assets/images/me.jpg
 url:            https://www.sini6a.info
 repository:     sini6a/sini6a.github.io
+rss:            https://feeds.feedburner.com/SinishaStojchevski
 lang:           en_US
 
 # Author Informations
