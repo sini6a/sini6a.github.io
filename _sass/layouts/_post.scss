@@ -85,7 +85,7 @@
 	input {
 		&[type="text"] {
 			width:235px;
-		    font: normal 300 1.0em/1.25em $heading-font-family;
+		    font: normal 300 0.85em $heading-font-family;
 		    text-transform: lowercase;
 			padding: 10px;
 			border: 1px solid $base-light;
@@ -104,7 +104,7 @@
 			}
 		}
 		&[type="submit"] {
-		    font: normal 300 1.0em/1.25em $heading-font-family;
+		    font: normal 300 0.85em $heading-font-family;
 		    text-transform: uppercase;
 			padding: 10px;
 			margin-top: 5px;
