@@ -11,7 +11,7 @@ image: 'https://images.unsplash.com/photo-1518432031352-d6fc5c10da5a?ixlib=rb-1.
 
 FOSS stands for **Free and Open Source Software**.
 
-FOSS is a software disturbed under licence that allows developers to *use, copy, study, and change* the software in any way they want. Developers can contribute by improving parts of the code thus fixing bugs, improving security or writing software features and the most important part of that long list is **no malware** because FOSS is built by community and every peace of code is publicly available. 
+FOSS is a software distributed under licence that allows developers to *use, copy, study, and change* the software in any way they want. Developers can contribute by improving parts of the code thus fixing bugs, improving security or writing software features and the most important part of that long list is **no malware** because FOSS is built by community and every peace of code is publicly available. 
 
 More on [Wikipedia](https://en.wikipedia.org/wiki/Free_and_open-source_software).
 
