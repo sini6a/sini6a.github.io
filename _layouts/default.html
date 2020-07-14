@@ -23,6 +23,7 @@ layout: compress
 
     {% include scripts.html %}
 
+	{% if site.conf.gtm_id %}
     <!-- Google Tag Manager (noscript) -->
     <noscript>
       <iframe
@@ -33,5 +34,6 @@ layout: compress
       </iframe>
     </noscript>
     <!-- End Google Tag Manager (noscript) -->
+    {% endif %}
   </body>
 </html>

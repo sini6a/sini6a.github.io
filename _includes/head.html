@@ -43,7 +43,7 @@
     <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
   <![endif]-->
 
-  {% if jekyll.environment == "production" %}
+  {% if jekyll.environment == "production" && site.conf.gtm_id %}
     {% include head/gtm.html %}
   {% endif %}
 

@@ -23,7 +23,7 @@ author:
 
 # Config
 conf:
-  gtm_id:       GTM-WH4HPNF
+#  gtm_id:       GTM-WH4HPNF
   theme_color:  "#5fbffd"
 
 navigation:
