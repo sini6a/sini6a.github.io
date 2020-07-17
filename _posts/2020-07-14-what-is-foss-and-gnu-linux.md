@@ -54,7 +54,7 @@ Cool, right?
 <iframe width="560" height="315" src="https://www.youtube.com/embed/YMCylaT4iV4" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 </div>
 
-Below you can find my personal list of beginner friendly distros and it is not limited or final in any way. Currently there are around *900* Linux distributions till date and my personal list upvotes those with good community support and those stable enough for everyday use:
+Below you can find my personal list of beginner friendly distros and it is not limited or final in any way. Currently there are *around 900* Linux distributions till date and my personal list upvotes those with good community support and those stable enough for everyday use:
 
 - [Linux Mint](https://www.linuxmint.com/)
 - [ElementaryOS](https://elementary.io/)
