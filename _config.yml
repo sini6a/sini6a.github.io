@@ -30,9 +30,6 @@ navigation:
   - text: Home
     url: /
     active: false
-  - text: Projects
-    url: /projects
-    active: projects
   - text: Articles
     url: /articles
     active: articles
