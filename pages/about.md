@@ -12,7 +12,9 @@ I'm a young *entrepreneur* and *founder* of [CTRL][ctrl], a company that offers 
 
 I am a big enthusiast in the **free and open source software** philosophy and active *Linux* user since 2008. I often encourage people to use and develop free software because it is the community that matters.
 
-Find me on [Linkedin][linkedin], [Instagram][instagram], [Facebook][facebook] or check my projects on [Github][github]. 
+Find me on [Linkedin][linkedin], [Instagram][instagram] or [Facebook][facebook]. 
+
+Check my [portfolio]({{site.url}}/portfolio) or my open-source projects on [Github][github]. 
 
 Feel free to [e-mail me][email].
 

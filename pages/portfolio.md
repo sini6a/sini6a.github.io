@@ -1,7 +1,7 @@
 ---
-title: Projects
+title: Portfolio
 subtitle: Design & code.
-permalink: /projects/
+permalink: /portfolio/
 
 layout: page
 ---
