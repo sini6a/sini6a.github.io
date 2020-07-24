@@ -6,8 +6,6 @@ permalink: /projects/
 layout: page
 ---
 
-Almost done! Check back soon.
-
 ## ReFlex
 ![Screenshot]({{site.url}}/assets/images/projects/ReFlex/cover.png)
 
