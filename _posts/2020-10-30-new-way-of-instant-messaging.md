@@ -9,7 +9,7 @@ image: 'https://images.unsplash.com/photo-1590856029826-c7a73142bbf1?ixlib=rb-1.
 
 # TOX - Secure Instant Messaging!
 
-If you read my blog then you already know that my focus is mostly privacy, free and open source software and programming but if you haven't read anything yet - I highly recommend that you do by starting with [What is GNU/Linux and FOSS]({{site.url}}/2020/new-way-of-instant-messaging/). This time with great excitement... I introduce you... **TOX!**
+If you read my blog then you already know that my focus is mostly privacy, free and open source software and programming but if you haven't read anything yet - I highly recommend that you do by starting with [What is GNU/Linux and FOSS]({{site.url}}/2020/what-is-foss-and-gnu-linux/). This time with great excitement... I introduce you... **TOX!**
 
 ## What is *TOX*?
 
