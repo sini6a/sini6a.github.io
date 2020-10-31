@@ -4,7 +4,7 @@ description: >-
   Learn a new, secure and peer-to-peer way of Instant Messaging! Tox protocol helps you protect your privacy but offers you the same old way of IM! 
 tags: privacy linux windows macos instant-messaging
 keywords: 'windows, linux, macos, privacy, security, instant-messaging, im, messenger'
-image: 'https://images.unsplash.com/photo-1590856029826-c7a73142bbf1?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1053&q=80'
+image: 'https://images.unsplash.com/photo-1510511459019-5dda7724fd87?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1050&q=80'
 ---
 
 # TOX - Secure Instant Messaging!
