@@ -36,6 +36,9 @@ navigation:
   - text: About
     url: /about
     active: about
+  - text: Portfolio
+    url: /portfolio
+    active: portfolio
 
 
 social:
