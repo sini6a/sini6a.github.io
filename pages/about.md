@@ -16,7 +16,7 @@ I am a big enthusiast in the **free and open source software** philosophy and ac
 
 Check my [portfolio]({{site.url}}/portfolio) or my open-source projects on [Github][github].
 
-You can reach me on my [Facebook](facebook) profile or chat with me on [tox](tox:FE9C0193DEF672B9A55C522E05BD148BF2209896519BF667FA80365156D7B32469D0F1ECC950).
+You can reach me on my [Facebook][facebook] profile or chat with me on [tox](tox:FE9C0193DEF672B9A55C522E05BD148BF2209896519BF667FA80365156D7B32469D0F1ECC950).
 
 
 [me]: /assets/images/me.jpg
