@@ -1,0 +1,64 @@
+title: www.stojchevski.com
+email: stojchevski0@gmail.com
+description: > # this means to ignore newlines
+  Write an awesome description for your new site here. You can edit this
+  line in _config.yml. It will appear in your document head meta (for
+  Google search results) and in your feed.xml site description.
+
+domain: sini6a.github.io        # if you want to force HTTPS, specify the domain without the http at the start, e.g. example.com
+url: https://sini6a.github.io   # the base hostname and protocol for your site, e.g. http://example.com
+baseurl: /sini6a.github.io/      # place folder name if the site is served in a subfolder
+
+# Date format
+# refer to https://shopify.github.io/liquid/filters/date/ if you want to customize this
+onion:
+#  date_format: "%Y-%m-%d"
+
+# generate social links in footer
+  social_links:
+#    twitter: jekyllrb
+    github:  sini6a
+#    devto: jekyll
+#    dribbble: jekyll
+    facebook: sini6a.github.io
+#    flickr:   jekyll
+    instagram: sini6a
+    linkedin: sinisha-stojchevski-071447167
+#    pinterest: jekyll
+#    youtube: jekyll
+#    youtube_channel: UC8CXR0-3I70i1tfPg1PAE1g
+#    youtube_channel_name: CloudCannon
+    telegram: sini6a
+#    googleplus: +jekyll
+#    microdotblog: jekyll
+#    keybase: jekyll
+
+# generate crypto wallets in footer
+#  crypto_wallets:
+#    bitcoin:
+#    etherium:
+
+# If you want to link only specific pages in your header, uncomment
+# this and add the path to the pages in order as they should show up
+header_pages:
+ - index.markdown
+
+# Build settings
+theme: jekyll-theme-onion
+
+plugins:
+ - jekyll-feed
+ - jekyll-seo-tag
+
+
+kramdown:
+  input: Kramdown
+  syntax_highlighter: rouge
+
+show_excerpts: true
+
+sass:
+  sass_dir:           _sass
+  style:              compressed
+
+permalink: pretty

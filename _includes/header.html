@@ -1,0 +1,19 @@
+<header>
+  <!-- <h1 style="text-align:center; font-size: 2.5em;"><a href="./">(/)</a></h1> -->
+  <a href="/"><img class="logo" src="{{ "/assets/onion-logo.png" | relative_url }}" alt="www.stojchevski.com" /></a>
+  <div style="margin: auto; display: block; text-align: center;" >
+    <div class="">
+      {%- assign default_paths = site.pages | map: "path" -%}
+      {%- assign page_paths = site.header_pages | default: default_paths -%}
+      {%- assign titles_size = site.pages | map: 'title' | join: '' | size -%}
+
+      {%- for path in page_paths -%}
+          {%- assign my_page = site.pages | where: "path", path | first -%}
+              {%- if my_page.title -%}
+              <a class="page-link" href="{{ my_page.url | relative_url }}">[{{ my_page.title | escape }}]</a>
+              {%- endif -%}
+      {%- endfor -%}
+      <!-- <a href="/">[home]</a> <a href="#about">[about]</a> <a href="#contact">[contact]</a> -->
+    </div>
+  </div>
+</header>
