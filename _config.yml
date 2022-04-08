@@ -44,7 +44,7 @@ header_pages:
  - index.markdown
 
 # Build settings
-theme: jekyll-theme-onion
+remote_theme: jekyll-theme-onion
 
 plugins:
  - jekyll-feed
