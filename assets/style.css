@@ -391,3 +391,18 @@ pre::-webkit-scrollbar-thumb:hover,
 .code::-webkit-scrollbar-thumb:hover {
     background-color: var(--link-color);
 }
+
+/* Subtle page scrollbar (optional) */
+body {
+    scrollbar-width: thin;
+    scrollbar-color: var(--border-color) transparent;
+}
+
+body::-webkit-scrollbar {
+    width: 10px;
+}
+
+body::-webkit-scrollbar-thumb {
+    background-color: var(--border-color);
+    border-radius: 10px;
+}
