@@ -155,7 +155,7 @@ a[href^="http"]:where(:not([href*="knhash.in/"])):not(:has(img))::after {
 header {
     margin-bottom: var(--spacing-lg);
     padding-bottom: var(--spacing-md);
-    border-bottom: 3px dotted var(--main-color);
+    border-bottom: 2px dashed var(--main-color);
 }
 
 nav a {
@@ -168,7 +168,7 @@ main {
 
 footer {
     margin-top: var(--spacing-lg);
-    border-top: 3px dotted var(--main-color);
+    border-top: 2px dashed var(--main-color);
     padding: 25px 0;
     text-align: center;
 }
