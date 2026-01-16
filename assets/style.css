@@ -173,10 +173,12 @@ header {
     margin-bottom: var(--spacing-lg);
     padding-bottom: var(--spacing-md);
     border-bottom: 2px dashed var(--main-color);
+    text-align: center;
 }
 
 nav a {
-    margin-right: 8px;
+    display: inline-block;
+    margin: 0 8px;
 }
 
 main {
