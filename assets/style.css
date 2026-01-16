@@ -212,6 +212,20 @@ img, figure {
     max-width: 100%;
 }
 
+.post-content img {
+    display: block;
+    width: 100%;
+    height: auto;
+    aspect-ratio: 16 / 9;
+    object-fit: cover;
+}
+
+@media (max-width: 700px) {
+    .post-content img {
+        aspect-ratio: 1 / 1;
+    }
+}
+
 blockquote {
     border-left: 1px solid var(--blockquote-color);
     color: var(--text-color); /* FIX: was var(--code-color) */
