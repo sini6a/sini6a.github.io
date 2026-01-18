@@ -1,3 +1,5 @@
+---
+---
 /* =============================================================================
    JEKYLL BEAR THEME - TECH LAB / PCB PORTFOLIO AESTHETIC
    ============================================================================= */
@@ -152,17 +154,9 @@ a:visited {
 }
 
 /* External link marker */
-a[href^="http"]:where(:not([href*="knhash.in/"])):not(:has(img))::after {
+a[href^="http"]:where(:not([href*="{{ site.url | replace: 'https://', '' | replace: 'http://', '' }}"])):not(:has(img))::after {
     content: "↗";
     font-family: var(--font-monospace);
-}
-
-.title:hover {
-    text-decoration: none;
-}
-
-.title h1 {
-    font-size: 1.5em;
 }
 
 /* =============================================================================
@@ -173,13 +167,41 @@ header {
     margin-bottom: var(--spacing-lg);
     padding-bottom: var(--spacing-md);
     border-bottom: 2px dashed var(--main-color);
-    text-align: center;
+    text-align: left;
 }
 
-nav a {
-    display: inline-block;
-    margin: 0 8px;
+header nav p {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    margin: 8px 0;
 }
+
+header nav p > span {
+    display: inline-flex;
+    align-items: center;
+}
+
+header nav p a {
+    display: inline-block;
+    margin: 0 10px 0 0;
+}
+
+.nav-left {
+    flex: 1;
+    justify-content: flex-start;
+}
+
+.nav-right {
+    flex: 1;
+    justify-content: flex-end;
+}
+
+.nav-right a:last-child {
+    margin-right: 0;
+}
+
+
 
 main {
     line-height: 1.6;
@@ -212,7 +234,7 @@ img, figure {
     max-width: 100%;
 }
 
-.post-content img {
+/* .post-content img {
     display: block;
     width: 100%;
     height: auto;
@@ -224,7 +246,7 @@ img, figure {
     .post-content img {
         aspect-ratio: 1 / 1;
     }
-}
+} */
 
 blockquote {
     border-left: 1px solid var(--blockquote-color);
