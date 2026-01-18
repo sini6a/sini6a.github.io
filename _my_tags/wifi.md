@@ -1,0 +1,4 @@
+---
+slug: wifi
+name: WiFi
+---

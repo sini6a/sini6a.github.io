@@ -1,0 +1,4 @@
+---
+slug: kicad
+name: KiCad
+---
