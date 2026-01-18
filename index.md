@@ -1,30 +1,45 @@
 ---
 layout: default
-title: Hello
+title: Home
 ---
 
+# Welcome
 
-## An easy to use, minimal, text focused Jekyll theme
+Hi, and welcome to **stojchevski.com**.
 
-[Bear Blog](https://bearblog.dev/) is *"a blogging platform where words matter most"*. 
+This site is a **technical build log and portfolio** documenting my work in **embedded systems, PCB design, and hardware development**.  
 
-This is a port of it's theme to Jekyll, with some tweaks. So you can use GitHub Pages to host your blog while getting the same awesome Bear Blog feels.
+The focus is on **how things are designed**, the **constraints involved**, and the **trade-offs made along the way** — not just final results.
 
-**Stop worrying about the style, focus on your writing.**
 
-- Looks great on *any* device
-- Tiny, optimized, and awesome pages
-- No trackers, ads, or scripts, *did I mention minimal already?*
-- Auto light and dark themes
-- Tag support, to filter blog pages
-- Quick, *15 minute* setup
-- Gallery view for your images
-- Code highlighting
+::contentReference[oaicite:0]{index=0}
 
-Have a look around, this website is already themed with **jekyllBear**. If you like it, head over to the GitHub [repository](https://github.com/knhash/jekyllBear) for installation instructions.
 
-#### New: Life in Weeks Interactive Timeline
+## What you’ll find here
 
-- Visualize your life weeks, inspired by [Wait But Why](https://waitbutwhy.com/2014/05/life-weeks.html) and [Buster Benson](https://busterbenson.com/life-in-weeks/) and cycle through key events with up/down arrows.
+- Detailed write-ups of **hardware design projects**
+- PCB schematics, layout decisions, and manufacturing considerations
+- Firmware–hardware interaction (QMK, embedded MCUs, USB, power)
+- Lessons learned from real-world debugging and iteration
+- Open-source projects with reproducible results
 
-Try it on the [Life in Weeks](https://knhash.in/jekyllBear/life) page!
+Most posts are written as **engineering case studies**, intended to be useful both for myself and for others working with similar constraints.
+
+## Why this site exists
+
+I use this site to:
+- document projects end-to-end
+- reflect on design decisions and mistakes
+- build a long-term technical record of my work
+
+If you’re reviewing this as part of a job application, this site is meant to show **how I think as an engineer**, not just what I’ve built.
+
+## About me
+
+I work primarily with:
+- Embedded systems and microcontrollers
+- Custom PCB design (schematic → layout → bring-up)
+- USB, power delivery, and signal integrity considerations
+- Mechanical keyboards and human–interface hardware
+
+Everything [here](/blog) is hands-on and built from scratch.
