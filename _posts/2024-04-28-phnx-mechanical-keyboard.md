@@ -3,7 +3,7 @@ layout: post
 title: "PHNX Keyboard: ergonomic split keyboard"
 date: 2024-04-28
 subtitle: "Technical design notes from developing PHNX, a 54-key ergonomic split mechanical keyboard, focusing on matrix design, USB reliability, firmware constraints, and manufacturable PCB layout."
-tags: [hardware-design, pcb-design, keyboard, qmk, atmega32u4, usb-c, ergonomics, kicad]
+tags: [hardware-design, pcb-design, mechanical-keyboard, qmk, atmega32u4, usb-c, ergonomics, kicad]
 ---
 
 PHNX is a custom **ergonomic split mechanical keyboard** featuring **54 MX-compatible switches** with **per-key addressable RGB LEDs**. The design is based on the **ATmega32U4**, a widely used and well-supported MCU in the custom keyboard community, and uses **USB Type-C** for modern and reliable connectivity across devices.
